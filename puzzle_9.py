@@ -21,8 +21,7 @@ def string_to_morse_code(input_string):
         '_': '..--.-', '"': '.-..-.', '$': '...-..-', '!': '-.-.--',
         '@': '.--.-.'
     }
-    return ' '.join([morse_code.get(char.upper(), char)
-                     for char in input_string])
+    return ' '.join(morse_code.get(chr.upper(), chr) for chr in input_string)
 
 
 print(string_to_morse_code('Hello, World!'))
