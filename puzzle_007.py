@@ -4,8 +4,10 @@ def reverse_elements(list_of_numbers):
     """
     Takes a user list of numbers, as input, returns the list reversed
 
-    :param list_of_numbers: a list of numbers.
-    :return: the list, reversed.
+    :param:
+        list_of_numbers: a list of numbers.
+    :return:
+        the list, reversed.
     """
     return list_of_numbers[::-1]
 

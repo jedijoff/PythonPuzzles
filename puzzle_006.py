@@ -1,5 +1,5 @@
 def filter_even_length_strings(input_strings):
-    """ A function that filters even length strings from a list of strings
+    """A function that filters even length strings from a list of strings
 
     Args:
         input_strings: A list of strings. The list must contain
