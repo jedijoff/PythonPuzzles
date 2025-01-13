@@ -6,7 +6,7 @@ def remove_vowels(input_string):
     :param input_string: a user input string.
     :return: the input string with all vowels removed.
     """
-    VOWELS = "aeiou"
+    VOWELS = "aeiou"  # The vowels in 'English' are a CONSTANT.
     return "".join([chr for chr in input_string if chr.lower() not in vowels])
 
 
