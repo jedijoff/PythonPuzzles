@@ -1,4 +1,12 @@
+#!/usr/bin/env python3
+
 def sum_if_less_than_50(num_1, num_2):
+    """returns the sum of two numbers if the sum is less than 50.
+
+    :param num_1: assigned the first number passed to the function.
+    :param num_2: assigned the second number passed to the function.
+    :return: the sum of the numbers as long as that is less than 50.
+    """
     if num_1 + num_2 < 50:
         return num_1 + num_2
     else:
