@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 def sum_even_numbers(list_of_numbers):
-    """returns the sum of all even numbers in a list.
+    """
+    Function returns the sum of all even numbers in a list.
 
     :param list_of_numbers: a list of numbers passed to the function.
            via the function call: sum_even_numbers(list_of_numbers).

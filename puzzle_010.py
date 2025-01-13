@@ -1,9 +1,14 @@
 def second_largest_number(numbers: list):
-    """ A function that returns 2nd largest number from a list of numbers
+    """
+    Function returns 2nd largest number from a list of numbers
 
-    Args:
+    :param:
         numbers: A list of numbers. The list must contain
         a minimum of 2 numbers
+    :return:
+        The 2nd largest number from the list of numbers.
+        If the list contains less than 2 numbers, the function
+        returns None.
     """
     unique_numbers = list(set(numbers))
     return (sorted(unique_numbers)[-2]) if len(unique_numbers) > 1 else None

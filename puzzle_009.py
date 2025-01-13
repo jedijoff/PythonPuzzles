@@ -6,7 +6,11 @@ def string_to_morse_code(input_string):
     Args:
         input_string: A string to be converted to morse code.
         The string can contain letters, numbers, and special
-        characters."""
+        characters.
+    :return:
+        A string containing the morse code translation of
+        the input string.
+    """
     morse_code = {
         'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
         'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-',
