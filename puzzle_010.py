@@ -3,7 +3,8 @@ def second_largest_number(numbers: list):
 
     Args:
         numbers: A list of numbers. The list must contain
-        a minimum of 2 numbers"""
+        a minimum of 2 numbers
+    """
     unique_numbers = list(set(numbers))
     return (sorted(unique_numbers)[-2]) if len(unique_numbers) > 1 else None
 
