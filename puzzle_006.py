@@ -14,5 +14,7 @@ def filter_even_length_strings(input_strings):
 
 
 # Example function calls:
-print(filter_even_length_strings(['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']))
-print(filter_even_length_strings(['cat', 'dog', 'elephant', 'fish', 'giraffe', 'hippopotamus', 'iguana']))
+print(filter_even_length_strings(['apple', 'banana', 'cherry', 'date',
+                                  'elderberry', 'fig', 'grape']))
+print(filter_even_length_strings(['cat', 'dog', 'elephant', 'fish', 'giraffe',
+                                  'hippopotamus', 'iguana']))
