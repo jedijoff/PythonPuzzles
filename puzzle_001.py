@@ -15,4 +15,5 @@ def filter_strings_containing_a(list_of_strings):
 
 
 # Example function calls:
-print(filter_strings_containing_a(['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']))
+print(filter_strings_containing_a(['apple', 'banana', 'cherry', 'date',
+                                   'elderberry', 'fig', 'grape']))
