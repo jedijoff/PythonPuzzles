@@ -5,6 +5,7 @@ def sum_even_numbers(list_of_numbers):
 
     :param list_of_numbers: a list of numbers passed to the function.
            via the function call: sum_even_numbers(list_of_numbers).
+    :return: the sum of all even numbers in the list.
     """
     sum = 0
     for number in list_of_numbers:
@@ -13,6 +14,7 @@ def sum_even_numbers(list_of_numbers):
     return sum
 
 
+# Example function calls:
 print(sum_even_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 print(sum_even_numbers([2, 4, 6, 8, 10]))
 print(sum_even_numbers([1, 3, 5, 7, 9]))

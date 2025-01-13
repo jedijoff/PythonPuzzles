@@ -10,6 +10,7 @@ def remove_vowels(input_string):
     return "".join([chr for chr in input_string if chr.lower() not in VOWELS])
 
 
+# Example function calls:
 print(remove_vowels("Apple"))
 print(remove_vowels("banana"))
 print(remove_vowels("cherry"))
