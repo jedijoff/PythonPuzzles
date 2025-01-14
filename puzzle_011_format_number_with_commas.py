@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# Example function calls:#!/usr/bin/env python3
 
 def format_number_with_commas(number) -> str:
     """
@@ -10,6 +10,7 @@ def format_number_with_commas(number) -> str:
     return  "{:,}".format(number)
 
 
+# Example function calls:
 print(format_number_with_commas(1000))
 print(format_number_with_commas(1000000))
 print(format_number_with_commas(10000000))
