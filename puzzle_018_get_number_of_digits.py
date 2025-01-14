@@ -10,7 +10,7 @@ def get_number_of_digits(number):
     NB: The puzzle specified that the function should be
     recursive, and not convert the number to a string,
     so the obvious return len(str(number)) option was
-    off the cards
+    off the cards.
     """
     if number > 0:
         number = number // 10
