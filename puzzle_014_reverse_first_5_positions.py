@@ -13,6 +13,7 @@ def reverse_first_5_positions(string):
     return string[4::-1] + string[5:]
 
 
+# Example function calls:
 print(reverse_first_5_positions('hello world'))
 print(reverse_first_5_positions('1234567890'))
 print(reverse_first_5_positions(['abc', 'def', 'ghi', 'jkl', 'mno', 'pqr',
