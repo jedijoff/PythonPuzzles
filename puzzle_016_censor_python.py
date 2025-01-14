@@ -14,5 +14,5 @@ def censor_python(string):
     return string
 
 
+# Example function call:
 print(censor_python("Hello Python! You're my favourite programming language!"))
-

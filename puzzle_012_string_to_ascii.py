@@ -10,6 +10,7 @@ def string_to_ascii(string):
     return [ord(char) for char in string]
 
 
+# Example function calls:
 print(string_to_ascii('hello'))
 print(string_to_ascii('world'))
 print(string_to_ascii('Python'))

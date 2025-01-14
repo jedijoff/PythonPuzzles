@@ -17,6 +17,7 @@ def check_if_string_is_happy(string):
             return len(string[i:]) == len(set(string[i:]))
 
 
+# Example function calls:
 print(check_if_string_is_happy('abcabcabc'))
 print(check_if_string_is_happy('abcabcab'))
 print(check_if_string_is_happy('cbcabcaba'))
