@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def get_number_of_digits(number, count=0):
+def get_number_of_digits(number):
     """
     Function returns the number of digits in a number.
 
