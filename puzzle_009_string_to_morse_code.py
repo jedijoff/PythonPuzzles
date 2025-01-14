@@ -28,5 +28,6 @@ def string_to_morse_code(input_string):
     return ' '.join(morse_code.get(chr.upper(), chr) for chr in input_string)
 
 
+# Example function calls:
 print(string_to_morse_code('Hello, World!'))
 print(string_to_morse_code('https://abc@xyz.net/python?query=string'))
