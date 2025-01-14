@@ -7,7 +7,8 @@ def reverse_first_5_positions(string):
 
     :param string: a string or list, or tuple passed to the function.
     :return: the string or list or tuple with the first 5 characters or
-    positions reversed.
+    positions reversed. If the input string is less than 5 characters, the
+    function will return the string reversed.
     """
     return string[4::-1] + string[5:]
 
@@ -17,3 +18,4 @@ print(reverse_first_5_positions('1234567890'))
 print(reverse_first_5_positions(['abc', 'def', 'ghi', 'jkl', 'mno', 'pqr',
                                  'stu', 'vwx', 'yz']))
 print(reverse_first_5_positions(('abc', 'def', 'ghi', 'jkl', 'mno', 'pqr',)))
+print(reverse_first_5_positions('new'))
