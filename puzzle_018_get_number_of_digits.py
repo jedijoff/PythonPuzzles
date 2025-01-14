@@ -19,6 +19,7 @@ def get_number_of_digits(number):
         print(count)
 
 
+# Example function calls:
 get_number_of_digits(1000)
 get_number_of_digits(1000000)
 get_number_of_digits(10000000)
