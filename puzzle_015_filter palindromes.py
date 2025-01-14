@@ -16,4 +16,5 @@ def filter_palindromes(list_of_strings):
     return palindrome_list
 
 
+# Example function calls:
 print(filter_palindromes(['apple', 'banana', 'civic', 'date', 'racecar']))
