@@ -8,7 +8,7 @@ def get_number_of_digits(number):
     :return: the number of digits in the number.
     """
     count = 0
-    P
+    
     while number > 0:
         count += 1
         number = number // 10
