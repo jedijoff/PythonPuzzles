@@ -11,7 +11,12 @@ def my_zip(input_list_a: list[Any], input_list_b: list[Any]) \
     an iterator of tuples. It will automatically stop when the shortest
     input iterable is exhausted.
 
-    :return:
+    :param: input_list_a: any type of list object.
+    :param: input_list_b: any type of list object.
+
+    :return: A list of tuples in format [(a[0], b[0]),(a[1], b[1]) ...]
+             The length of the returned list is equal to the shortest
+             input list object.
     """
     length = min(len(input_list_a), len(input_list_b))
     return [(input_list_a[i], input_list_b[i]) for i in range(length)]
