@@ -14,7 +14,7 @@ def xor(input_a, input_b):
     :return: the XOR of the two binary values as a string.
     """
     # Check the length of input_a and input_b and swap them if necessary
-    if len(input_a) >= len(input_b):
+    if len(input_a) > len(input_b):
         input_a, input_b = input_b, input_a
     # This section that does the XOR comparison and returns the result
     result = []
