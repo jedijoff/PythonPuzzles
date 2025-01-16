@@ -13,13 +13,10 @@ def xor(input_a, input_b):
     :param: input_b: A binary value as a string.
     :return: the XOR of the two binary values as a string.
     """
-    # Ensure Input_a is the same length or shorter than Input_b,
-    # as input_a defines the length of the returned string.
+    # Check the length of input_a and input_b and swap them if necessary
     if len(input_a) >= len(input_b):
-        new_a = []
-        [str(new_a.append(input_a[i])) for i in range(len(input_b))]
-        input_a = "".join(new_a)
-    # This section that does the XOR comparison and returns the result:
+        input_a, input_b = input_b, input_a
+    # This section that does the XOR comparison and returns the result
     result = []
     for i in range(len(input_a)):
         if input_a[i] != input_b[i]:
